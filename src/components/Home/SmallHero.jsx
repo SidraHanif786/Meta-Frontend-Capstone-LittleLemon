@@ -1,6 +1,6 @@
 import React from "react";
-import Container from "../../common/Container";
-import Button from "../../common/Button";
+import Container from "../common/Container";
+import Button from "../common/Button";
 
 const SmallHero = () => {
   return (
@@ -23,7 +23,10 @@ const SmallHero = () => {
             We are a family owned Mediterranean restaurant, focused on
             traditional recipes served with a modern twist.
           </p>
-            <Button name={"Reserve a Table"} className={" !px-[34%] md:ml-[10%] sm:ml-[5%]"} />
+          <Button
+            name={"Reserve a Table"}
+            className={"bg-yellow hover:bg-black hover:text-t-white !px-[34%] md:ml-[10%] sm:ml-[5%]"}
+          />
         </div>
       </Container>
     </>

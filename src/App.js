@@ -1,12 +1,11 @@
-import Hero from "./components/Hero/Hero";
-import Card from "./components/Menu/Card";
-
+import Hero from "./components/Home/Hero";
+import Card from "./components/common/Card";
+import Home from "./pages/Home";
 
 function App() {
   return (
     <>
-      <Hero/>
-      <Card/>
+      <Home />
     </>
   );
 }

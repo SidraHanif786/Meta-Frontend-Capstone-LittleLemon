@@ -1,6 +1,6 @@
 import React from "react";
-import Container from "../../common/Container";
-import Button from "../../common/Button";
+import Container from "../common/Container";
+import Button from "../common/Button";
 
 const BigHero = () => {
   return (
@@ -19,7 +19,7 @@ const BigHero = () => {
             traditional recipes served with a modern twist.
           </p>
           <div className="mt-[25px]">
-            <Button name={"Reserve a Table"} />
+            <Button name={"Reserve a Table"} className={'bg-yellow hover:bg-black hover:text-t-white'}/>
           </div>
         </div>
         <img
